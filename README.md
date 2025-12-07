@@ -10,6 +10,7 @@ graphics programming and game engines foundations.
 - Multi graphic API support (Vulkan and DirectX 12)
 - Multi physics API support (Jolt physics and Nvidia Physx)
 - Lua bindings
-  
+- Bundled with Slang shaders featuring PBR (simplified), Bloom, SSAO, HDR tone-mapping (Reinhard and ACES), SMAA, FXAA.
+- Written in C++ 23.
 
 
