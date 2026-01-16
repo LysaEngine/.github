@@ -1,16 +1,22 @@
 # Lysa
 
-Lysa is a hobby 3D engine created for learning and experimenting low level 
-graphics programming and game engines foundations.
+Lysa is a hobby 3D engine created for learning and experimenting with low-level graphics programming and game engine foundations.
 
-# Features
-- Modular architecture composed of multiple independent projects.
-- GPU-driven forward and deferred renderers.
-- [ECS](https://www.flecs.dev/flecs/) and nodes-based scenes systems.
-- Multi graphic API support (Vulkan and DirectX 12)
-- Multi physics API support (Jolt physics and Nvidia Physx)
-- [Lua](https://lua.org/) bindings
-- Bundled with [Slang](https://shader-slang.org/) shaders featuring PBR (simplified), Bloom, SSAO, HDR tone-mapping (Reinhard and ACES), SMAA, FXAA.
-- Written in C++ 23.
+## Engine Features
 
-
+- **Hybrid Rendering**: GPU-driven forward and deferred renderers.
+- **Advanced Shaders & Post-processing**: Integrated with [Slang](https://shader-slang.org/) shaders.
+    - **PBR**: Simplified Physically Based Rendering.
+    - **Transparency**: Weighted Blended Order-Independent Transparency (OIT).
+    - **Shadows**: Support for Directional and Point light shadow maps.
+    - **Culling**: GPU-driven Frustum Culling.
+    - **Post-processing**: Bloom, SSAO, FXAA, SMAA, and HDR Tone-mapping (Reinhard/ACES).
+- **Core Systems**:
+    - **Asynchronous Task Pool**: Multi-threaded task execution and deferred command buffering.
+    - **Event System**: Centralized observer-based event dispatcher.
+    - **Virtual File System**: Portable path resolution using `app://` URI schemes.
+    - **Logging**: Flexible logging to console, file, or virtual debug window.
+- **Resource Management**: Dedicated managers for Meshes, Textures, and Materials with automatic GPU uploading.
+- **Modern C++**: Built with C++23, utilizing C++ modules for clean architecture.
+- **Multi-API Support**: Vulkan and DirectX 12 support through [Vireo RHI](https://github.com/HenriMichelon/vireo_rhi).
+- **Scripting**: [Lua](https://lua.org/) bindings for high-level logic and rapid prototyping.
