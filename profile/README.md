@@ -21,6 +21,8 @@ Lysa is a hobby 3D engine created for learning and experimenting with low-level 
 - **Multi-API Support**: Vulkan and DirectX 12 support through [Vireo RHI](https://github.com/HenriMichelon/vireo_rhi).
 - **Scripting**: [Lua](https://lua.org/) bindings for high-level logic and rapid prototyping.
 
+## Additional Features
+
 ### Lysa UI
 
 Lysa Engine is designed to work seamlessly with **[Lysa UI](https://github.com/HenriMichelon/lysa_ui)**, a C++23 user interface library.
