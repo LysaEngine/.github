@@ -24,6 +24,11 @@ Lysa is a hobby 3D engine created for learning and experimenting with low-level 
 
 ## Additional Features
 
+### Lysa Nodes
+
+[Lysa Nodes](https://github.com/LysaEngine/lysa_nodes) is a scene graph system using OOP node tree for the Lysa Engine
+
 ### Lysa UI
 
-Lysa Engine is designed to work seamlessly with **[Lysa UI](https://github.com/HenriMichelon/lysa_ui)**, a C++23 user interface library.
+[Lysa UI](https://github.com/LysaEngine/lysa_ui) is a user interface library designed specifically for the Lysa engine offering a hybrid system with retained-mode components drawn using an immediate mode vector renderer.
+
