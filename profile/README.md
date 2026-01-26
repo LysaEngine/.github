@@ -32,3 +32,6 @@ Lysa is a hobby 3D engine created for learning and experimenting with low-level 
 
 [Lysa UI](https://github.com/LysaEngine/lysa_ui) is a user interface library designed specifically for the Lysa engine offering a hybrid system with retained-mode components drawn using an immediate mode vector renderer.
 
+### Lysa ECS
+
+[Lysa ECS](https://github.com/LysaEngine/lysa_ecs) is a **experimental** ECS for the Lysa Engine using [Flecs](https://www.flecs.dev/flecs/)
