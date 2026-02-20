@@ -4,18 +4,24 @@ Lysa is a hobby 3D engine created for learning and experimenting with low-level 
 
 ## Engine Features
 
+
 - **Hybrid Rendering**: GPU-driven forward and deferred renderers.
 - **Advanced Shaders & Post-processing**: Integrated with [Slang](https://shader-slang.org/) shaders.
-    - **PBR**: Simplified Physically Based Rendering.
-    - **Transparency**: Weighted Blended Order-Independent Transparency (OIT).
-    - **Shadows**: Support for Directional and Point light shadow maps.
-    - **Culling**: GPU-driven Frustum Culling.
-    - **Post-processing**: Bloom, SSAO, FXAA, SMAA, and HDR Tone-mapping (Reinhard/ACES).
+  - **PBR**: Simplified Physically Based Rendering.
+  - **Transparency**: Weighted Blended Order-Independent Transparency (OIT).
+  - **Shadows**: Support for Directional and Point light shadow maps.
+  - **Culling**: GPU-driven Frustum Culling.
+  - **Post-processing**: Bloom, SSAO, FXAA, SMAA, and HDR Tone-mapping (Reinhard/ACES).
+- **Physics Engine**: Integrated with [Jolt Physics](https://github.com/jrouwe/JoltPhysics) and [NVIDIA PhysX](https://nvidia-omniverse.github.io/PhysX/physx/5.6.1/index.html) for high-performance 3D physics.
+  - **Collision Objects & Filtering**: Support for collisiion objects with object layer collision matrix.
+  - **Raycasting**: Raycasting with layer-based filtering.
+  - **Event Integration**: Physics contacts and collisions integrated with the engine's centralized event system.
+  - **Debug Rendering**: Real-time visualization of physics shapes and constraints.
 - **Core Systems**:
-    - **Asynchronous Task Pool**: Multi-threaded task execution and deferred command buffering.
-    - **Event System**: Centralized observer-based event dispatcher.
-    - **Virtual File System**: Portable path resolution using `app://` URI schemes.
-    - **Logging**: Flexible logging to console, file, or virtual debug window.
+  - **Asynchronous Task Pool**: Multi-threaded task execution and deferred command buffering.
+  - **Event System**: Centralized observer-based event dispatcher.
+  - **Virtual File System**: Portable path resolution using `app://` URI schemes.
+  - **Logging**: Flexible logging to console, file, or virtual debug window.
 - **Resource Management**: Dedicated managers for Meshes, Textures, and Materials with automatic GPU uploading.
 - **Modern C++**: Built with C++23, utilizing C++ modules for clean architecture.
 - **Multi-API Support**: Vulkan and DirectX 12 support through [Vireo RHI](https://github.com/HenriMichelon/vireo_rhi).
