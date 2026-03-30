@@ -1,9 +1,8 @@
-# Lysa
+# Lysa Engine
 
-Lysa is a hobby 3D engine created for learning and experimenting with low-level graphics programming and game engine foundations.
+Lysa Engine is a hobby 3D engine created for learning and experimenting with low-level graphics programming and game engine foundations.
 
-## Engine Features
-
+## Features
 
 - **Hybrid Rendering**: GPU-driven forward and deferred renderers.
 - **Advanced Shaders & Post-processing**: Integrated with [Slang](https://shader-slang.org/) shaders.
@@ -29,16 +28,14 @@ Lysa is a hobby 3D engine created for learning and experimenting with low-level 
 - **Scripting**: [Lua](https://lua.org/) bindings for high-level logic and rapid prototyping.
 - **Editor**: Add-on to use Blender as an editor
 
-## Additional Features
+## Getting Started
 
-### Lysa Nodes
+Please refer to the [Documentation](https://henrimichelon.github.io/Lysa/) for detailed instructions on how to integrate and build the engine in your project.
+
+## Additional features
 
 [Lysa Nodes](https://github.com/LysaEngine/lysa_nodes) is a scene graph system using OOP node tree for the Lysa Engine
 
-### Lysa UI
-
 [Lysa UI](https://github.com/LysaEngine/lysa_ui) is a user interface library designed specifically for the Lysa engine offering a hybrid system with retained-mode components drawn using an immediate mode vector renderer.
 
-### Lysa ECS
-
-[Lysa ECS](https://github.com/LysaEngine/lysa_ecs) is a **experimental** ECS for the Lysa Engine using [Flecs](https://www.flecs.dev/flecs/)
+[Lysa ECS](https://github.com/LysaEngine/lysa_ecs) is an experimental ECS for the Lysa Engine using [Flecs](https://www.flecs.dev/flecs/)~~
