@@ -8,9 +8,9 @@ Lysa Engine is a hobby 3D engine created for learning and experimenting with low
 - **Advanced Shaders & Post-processing**: Integrated with [Slang](https://shader-slang.org/) shaders.
   - **PBR**: Simplified Physically Based Rendering.
   - **Transparency**: Weighted Blended Order-Independent Transparency (OIT).
-  - **Shadows**: Support for Directional and Point light shadow maps.
+  - **Shadows**: Support for Directional and Point light shadow maps. Optional colored shadows for transparent objects.
   - **Culling**: GPU-driven Frustum Culling.
-  - **Post-processing**: Bloom, SSAO, FXAA, SMAA, and HDR Tone-mapping (Reinhard/ACES).
+  - **Post-processing**: Bloom, SSAO, FXAA, SMAA, TAA, AMD CAS, HDR Tone-mapping (Reinhard/ACES).
 - **Physics Engine**: Integrated with [Jolt Physics](https://github.com/jrouwe/JoltPhysics) and [NVIDIA PhysX](https://nvidia-omniverse.github.io/PhysX/physx/5.6.1/index.html) for high-performance 3D physics.
   - **Collision Objects & Filtering**: Support for collisiion objects with object layer collision matrix.
   - **Raycasting**: Raycasting with layer-based filtering.
