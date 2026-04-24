@@ -10,8 +10,9 @@ Lysa Engine is a hobby 3D engine created for learning and experimenting with low
   - **Transparency**: Weighted Blended Order-Independent Transparency (OIT).
   - **Shadows**: Support for Directional and Point light shadow maps. Optional colored shadows for transparent objects.
   - **Culling**: GPU-driven Frustum Culling.
-  - **Post-processing**: Bloom, SSAO, FXAA, SMAA, TAA, AMD CAS, HDR Tone-mapping (Reinhard/ACES).
-- **Physics Engine**: Integrated with [Jolt Physics](https://github.com/jrouwe/JoltPhysics) and [NVIDIA PhysX](https://nvidia-omniverse.github.io/PhysX/physx/5.6.1/index.html) for high-performance 3D physics.
+  - **Post-processing**: Bloom, SSAO, FXAA, SMAA, TAA with optional frame sharpening, HDR Tone-mapping (Reinhard/ACES).
+  - **Frame Scaling**: Bilinear filtering and AMD FSR with optional frame sharpening with AMD FSR RCAS.
+  - **Physics Engine**: Integrated with [Jolt Physics](https://github.com/jrouwe/JoltPhysics) and [NVIDIA PhysX](https://nvidia-omniverse.github.io/PhysX/physx/5.6.1/index.html) for high-performance 3D physics.
   - **Collision Objects & Filtering**: Support for collisiion objects with object layer collision matrix.
   - **Raycasting**: Raycasting with layer-based filtering.
   - **Event Integration**: Physics contacts and collisions integrated with the engine's centralized event system.
