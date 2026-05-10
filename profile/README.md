@@ -2,6 +2,8 @@
 
 Lysa Engine is a hobby 3D engine created for learning and experimenting with low-level graphics programming and game engine foundations.
 
+Please refer to the [Documentation](https://henrimichelon.github.io/Lysa/) for detailed instructions on how to integrate and use the engine.
+
 ## Features
 
 - **Hybrid Rendering**: GPU-driven forward and deferred renderers.
@@ -28,10 +30,6 @@ Lysa Engine is a hobby 3D engine created for learning and experimenting with low
 - **Cross-Platform**: Designed for Windows (DirectX 12 & Vulkan), Linux (Vulkan) and potentially other platforms supporting Vulkan.
 - **Editor**: Add-on to use Blender as an editor
 - **Scripting**: [Lua](https://lua.org/) bindings for high-level logic and rapid prototyping.
-
-## Getting Started
-
-Please refer to the [Documentation](https://henrimichelon.github.io/Lysa/) for detailed instructions on how to integrate and build the engine in your project.
 
 ## Additional features
 
