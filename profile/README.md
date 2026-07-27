@@ -27,7 +27,7 @@ Please refer to the [Documentation](https://henrimichelon.github.io/Lysa/) for d
 - **Resource Management**: Dedicated managers for Meshes, Textures, and Materials with automatic GPU uploading.
 - **Modern C++**: Built with C++23, utilizing C++ modules for clean architecture.
 - **Multi-API Support**: Vulkan and DirectX 12 support through [Vireo RHI](https://github.com/HenriMichelon/vireo_rhi).
-- **Cross-Platform**: Designed for Windows (DirectX 12 & Vulkan), Linux (Vulkan) and potentially other platforms supporting Vulkan.
+- **Cross-Platform**: Designed for Windows (DirectX 12 & Vulkan), Linux (Vulkan) and macOS (Vulkan with KosmicKrisp).
 - **Editor**: Add-on to use Blender as an editor
 - **Scripting**: [Lua](https://lua.org/) bindings for high-level logic and rapid prototyping.
 
