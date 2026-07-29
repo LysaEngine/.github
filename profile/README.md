@@ -1,3 +1,5 @@
+This project has been migrated to Codeberg. This repository is an archive and is no longer being updated. 
+
 # Lysa Engine
 
 Lysa Engine is a hobby 3D engine created for learning and experimenting with low-level graphics programming and game engine foundations.
